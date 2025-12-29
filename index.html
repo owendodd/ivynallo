@@ -13,22 +13,36 @@
       display: flex;
       justify-content: left;
       align-items: start;
-      background: url('img/bg3-originalsize.webp') no-repeat center center fixed;
+      background: url('img/bg4-optimized.webp') no-repeat center center fixed;
       background-size: cover;
     }
     .text {
+      display: flex;
+      flex-direction: row;
+      gap: 32px;
       padding: 30px;
-      font-size: 1.4rem;
+      font-size: 1.5rem;
       font-family: 'Times New Roman', Times, serif;
-      text-transform: capitalize;
-      letter-spacing: 0.015em;
+      text-transform: capitalize      letter-spacing: 0.015em;
       color: #fff;
       opacity: 0.9;
-
+      a {
+        color: #fff;
+        text-decoration: none;
+      }
+      a:hover {
+        opacity: 0.8;
+      }
+      p {
+        margin: 0;
+      }
     }
   </style>
 </head>
 <body>
-  <div class="text">Ivy Nallo</div>
+  <div class="text">
+    <span>ivy nallo</span>
+    <span><a href="mailto:office@ivynallo.com">office@ivynallo.com</a></span>
+  </div>
 </body>
 </html>
